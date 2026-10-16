@@ -1,6 +1,6 @@
 (function() {
   /* ---------------------------------------------------------------------
-     Hotel Caravan — language switcher.
+     Caravan Plaza — language switcher.
 
      English is the SOURCE language: every page is written in English in the
      HTML, so the site is English by default, with no JavaScript needed and
@@ -31,7 +31,7 @@
     "Service": { uz: "Xizmat", ru: "Сервис" },
     "About the hotel": { uz: "Mehmonxona haqida", ru: "Об отеле" },
     "Comfort and tradition in the heart of Bukhara": { uz: "Buxoro qalbidagi qulaylik va an'ana", ru: "Комфорт и традиции в сердце Бухары" },
-    "Hotel Caravan is located in the historic centre of Bukhara, on Khodja Nurobobod Street. The hotel combines modern comforts with traditional Uzbek hospitality.": { uz: "Hotel Caravan Buxoro shahrining tarixiy markazida, Xo'ja Nurobobod ko'chasida joylashgan. Mehmonxona zamonaviy qulayliklar bilan an'anaviy o'zbek mehmondo'stligini uyg'unlashtirgan.", ru: "Hotel Caravan расположен в историческом центре Бухары, на улице Ходжа Нуробобод. Отель сочетает современный комфорт с традиционным узбекским гостеприимством." },
+    "Caravan Plaza is located in the historic centre of Bukhara, on Khodja Nurobobod Street. The hotel combines modern comforts with traditional Uzbek hospitality.": { uz: "Caravan Plaza Buxoro shahrining tarixiy markazida, Xo'ja Nurobobod ko'chasida joylashgan. Mehmonxona zamonaviy qulayliklar bilan an'anaviy o'zbek mehmondo'stligini uyg'unlashtirgan.", ru: "Caravan Plaza расположен в историческом центре Бухары, на улице Ходжа Нуробобод. Отель сочетает современный комфорт с традиционным узбекским гостеприимством." },
     "Rooms have air conditioning, central heating, a private bathroom, a king-size bed, a safe and a writing desk. A telephone, television, free Wi-Fi and other modern conveniences are provided for guests.": { uz: "Xonalarda konditsioner, markaziy isitish tizimi, vannaxona, Kingsize karavot, seyflar va yozuv stoli mavjud. Telefon, televizor, bepul Wi-Fi va boshqa zamonaviy qulayliklar mehmonlarga taqdim etiladi.", ru: "В номерах есть кондиционер, центральное отопление, ванная комната, кровать King-size, сейф и письменный стол. Гостям предоставляются телефон, телевизор, бесплатный Wi-Fi и другие современные удобства." },
     "Bathrooms are equipped with a shower, bath, hairdryer, bathrobe and toiletries. Family rooms and non-smoking rooms are available.": { uz: "Vannaxonalarda dush, vanna, fen, xalat va gigiena vositalari bilan jihozlangan. Oilaviy xonalar va chekish taqiqlangan xonalar mavjud.", ru: "Ванные комнаты оснащены душем, ванной, феном, халатом и туалетными принадлежностями. Доступны семейные номера и номера для некурящих." },
     "Amenities and services": { uz: "Qulayliklar va xizmatlar", ru: "Удобства и услуги" },
@@ -89,7 +89,7 @@
     "A great hotel. The rooms are clean and the service is excellent. The breakfast is very good too. I recommend it!": { uz: "Zo'r mehmonxona. Xonalar toza, xizmat a'lo darajada. Nonushta ham juda yaxshi. Tavsiya etaman!", ru: "Отличный отель. Номера чистые, обслуживание превосходное. Завтрак тоже очень хороший. Рекомендую!" },
     "Swapping your phone numbers around for one another": { uz: "Telefon raqamlaringizni almashtirgani bilan almashtirib qo'yishlar", ru: "Меняют ваши телефонные номера местами" },
     "Experience it for yourself": { uz: "O'zingiz ham tajriba qiling", ru: "Испытайте сами" },
-    "Hotel Caravan — the best choice in Bukhara": { uz: "Hotel Caravan — Buxoroda eng yaxshi tanlov", ru: "Hotel Caravan — лучший выбор в Бухаре" },
+    "Caravan Plaza — the best choice in Bukhara": { uz: "Caravan Plaza — Buxoroda eng yaxshi tanlov", ru: "Caravan Plaza — лучший выбор в Бухаре" },
     "Book a room": { uz: "Xonani band qilish", ru: "Забронировать номер" },
     "Get in touch": { uz: "Biz bilan bog'laning", ru: "Свяжитесь с нами" },
     "Get in touch — we are glad to help": { uz: "Biz bilan bog'laning — sizga yordam berishdan xursandmiz", ru: "Свяжитесь с нами — мы рады помочь" },
@@ -116,7 +116,7 @@
     "Family room": { uz: "Oilaviy xona", ru: "Семейный номер" },
     "Khodja Nurobobod Str., Bukhara": { uz: "Khodja Nurobobod Str., Buxoro", ru: "ул. Ходжа Нуробобод, Бухара" },
     "Open 24/7": { uz: "24/7 ochiq", ru: "Открыто 24/7" },
-    "© 2024 Hotel Caravan. All rights reserved.": { uz: "© 2024 Hotel Caravan. Barcha huquqlar himoyalangan.", ru: "© 2024 Hotel Caravan. Все права защищены." },
+    "© 2024 Caravan Plaza. All rights reserved.": { uz: "© 2024 Caravan Plaza. Barcha huquqlar himoyalangan.", ru: "© 2024 Caravan Plaza. Все права защищены." },
     "Privacy Policy": { uz: "Maxfiylik siyosati", ru: "Политика конфиденциальности" },
     "Terms of Use": { uz: "Foydalanish shartlari", ru: "Условия использования" },
     "Our story": { uz: "Bizning tarix", ru: "Наша история" },
@@ -168,13 +168,13 @@
   };
 
   var TITLES = {
-    "Hotel Caravan — Bukhara, Uzbekistan": { uz: "Hotel Caravan — Buxoro", ru: "Hotel Caravan — Бухара" },
-    "About — Hotel Caravan": { uz: "Haqida — Hotel Caravan", ru: "О нас — Hotel Caravan" },
-    "Services — Hotel Caravan": { uz: "Xizmatlar — Hotel Caravan", ru: "Услуги — Hotel Caravan" },
-    "Rooms — Hotel Caravan": { uz: "Xonalar — Hotel Caravan", ru: "Номера — Hotel Caravan" },
-    "Gallery — Hotel Caravan": { uz: "Galereya — Hotel Caravan", ru: "Галерея — Hotel Caravan" },
-    "Reviews — Hotel Caravan": { uz: "Sharhlar — Hotel Caravan", ru: "Отзывы — Hotel Caravan" },
-    "Contact — Hotel Caravan": { uz: "Aloqa — Hotel Caravan", ru: "Контакты — Hotel Caravan" }
+    "Caravan Plaza — Bukhara, Uzbekistan": { uz: "Caravan Plaza — Buxoro", ru: "Caravan Plaza — Бухара" },
+    "About — Caravan Plaza": { uz: "Haqida — Caravan Plaza", ru: "О нас — Caravan Plaza" },
+    "Services — Caravan Plaza": { uz: "Xizmatlar — Caravan Plaza", ru: "Услуги — Caravan Plaza" },
+    "Rooms — Caravan Plaza": { uz: "Xonalar — Caravan Plaza", ru: "Номера — Caravan Plaza" },
+    "Gallery — Caravan Plaza": { uz: "Galereya — Caravan Plaza", ru: "Галерея — Caravan Plaza" },
+    "Reviews — Caravan Plaza": { uz: "Sharhlar — Caravan Plaza", ru: "Отзывы — Caravan Plaza" },
+    "Contact — Caravan Plaza": { uz: "Aloqa — Caravan Plaza", ru: "Контакты — Caravan Plaza" }
   };
 
   var originals = [];
